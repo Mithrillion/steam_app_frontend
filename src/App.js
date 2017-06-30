@@ -20,7 +20,7 @@ class App extends Component {
         console.log("displaying game info!");
         ReactDOM.render(<GameInfoDisplay app={app} />, document.getElementById("selectedGame"));
         console.log("requesting similarity data...");
-        fetch('http://localhost:5000/query/' + app.app_id).then(res => {
+        fetch('http://mithrillion.pythonanywhere.com/query/' + app.app_id).then(res => {
             res.json().then(json => {
                 console.log(json);
                 ReactDOM.render(<SimilarGamesDisplay apps={json}/>, document.getElementById("similarGames"))
