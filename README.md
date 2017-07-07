@@ -1,5 +1,14 @@
-This repository is the web frontend portion of my steam similar game finder project. The live demo of the project is at https://mithrillion.github.io/steam_app_frontend/. The web backend portion can be found at https://github.com/Mithrillion/steam_app_backend and the data processing code can be found at https://github.com/Mithrillion/steam_app_data_processing.
+This repository is the web frontend portion of my steam similar game finder project. 
+
+The live demo of the project is at https://mithrillion.github.io/steam_app_frontend/. 
+
+The web backend portion can be found at https://github.com/Mithrillion/steam_app_backend 
+
+The data processing code can be found at https://github.com/Mithrillion/steam_app_data_processing.
+
+
 The project consists of the following steps:
+
 1. Scrape Steam app titles and IDs from a saved version of steamdb.com (not using live scrapping according to terms of steamdb)
 2. Scrape the store page image URLs and user-defined tags from store.steampowered.com for all app IDs obtained in step 1.
 3. Download images from Steam's CDN.
