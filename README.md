@@ -16,3 +16,8 @@ The project consists of the following steps:
 5. Use the network up to second last layer to generate a semantic encoding of top 10000 games on Steam, based on their store images.
 6. Use an optimised nearest-neighbour algorithm to find closest games to a given input game.
 7. Wrap the algorithm in step 6 in a web interface.
+
+NEXT STEPs:
+
+1. Use deeplearn.js to deploy image hashing model onto the web frontend.
+2. Build a game explorer based on hierarchical clustering of games.
